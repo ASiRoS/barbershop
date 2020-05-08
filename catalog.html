@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <ul class="site-navigation">
+        <li><a href="index.html"><img src="img/logo.svg" alt="Логотип Барбершопа"></a></li>
+        <li>Информация</li>
+        <li>Новости</li>
+        <li>Прайс-лист</li>
+        <li class="nagivation-active">Магазин</li>
+        <li>Контакты</li>
+      </ul>
+      <a href="#" class="login-link">Вход</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+
+    <ul class="breadcrumbs">
+      <li>Главная</li>
+      <li>Магазин</li>
+      <li>Средства для ухода</li>
+    </ul>
+
+    <section class="filter">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <form class="filter-form" action="#">
+        <fieldset>
+          <legend>Производители:</legend>
+          <input type="checkbox" value="Baxter of California">
+          <input type="checkbox" value="Mr Natty">
+          <input type="checkbox" value="Suavecito">
+          <input type="checkbox" value="Malin+Goetz">
+          <input type="checkbox" value="Murray’s">
+          <input type="checkbox" value="American Crew">
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров:</legend>
+          <input type="radio" name="item-category" value="Бритвенные принадлежности">
+          <input type="radio" name="item-category" value="Средства для ухода">
+          <input type="radio" name="item-category" value="Аксессуары">
+        </fieldset>
+
+        <button type="submit" class="btn">Показать</button>
+      </form>
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Каталог средств для ухода</h2>
+
+      <article class="product">
+        <img src="/img/travel-kit-baxter.png" alt="Набор для путешествий  «Baxter of California»" class="product-image">
+        <h3 class="product-title">Набор для путешествий «Baxter of California»</h3>
+        <span class="product-price">2 900 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+
+      <article class="product">
+        <img src="/img/conditioner-baxter.png" alt="Увлажняющий кондиционер «Baxter of California»" class="product-image">
+        <h3 class="product-title">Увлажняющий кондиционер «Baxter of California»</h3>
+        <span class="product-price">750 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+
+      <article class="product">
+        <img src="/img/gel-suavecito.png" alt="Гель для волос «SUAVECITO»" class="product-image">
+        <h3 class="product-title">Гель для волос «SUAVECITO»</h3>
+        <span class="product-price">290 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+
+      <article class="product">
+        <img src="/img/clay-american-crew.png" alt="Глина для укладки волос «American crew»" class="product-image">
+        <h3 class="product-title">Глина для укладки волос «American crew»</h3>
+        <span class="product-price">500 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+
+      <article class="product">
+        <img src="/img/gel-american-crew.png" alt="" class="product-image">
+        <h3 class="product-title">Гель для волос «AMERICAN CREW»</h3>
+        <span class="product-price">300 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+
+      <article class="product">
+        <img src="img/shaving-kit-baxter.png" alt="Набор для бритья «Baxter of California»" class="product-image">
+        <h3 class="product-title">Набор для бритья «Baxter of California»</h3>
+        <span class="product-price">3 900 ₽</span>
+        <a href="item.html" class="product-link btn">Купить</a>
+      </article>
+    </section>
+
+    <ul class="pagination">
+      <li><a href="#">1</a></li>
+      <li class="pagination-active"><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+    </ul>
+  </main>
+
+  <footer class="main-footer">
+    <p class="footer-address">
+      БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+      АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+      КАК НАС НАЙТИ? <br>
+      ТЕЛЕФОН: +7 (495) 666-02-66
+    </p>
+    <div class="footer-socials">
+      Давайте дружить!
+      <ul>
+        <li><a href="vk.com"><img src="img/vk.png" alt="Вконтакте"></a></li>
+        <li><a href="fb.com"><img src="img/fb.png" alt="Фейсбук"></a></li>
+        <li><a href="instagram.com"><img src="img/in.png" alt="Инстаграм"></a></li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      Разработано
+      <b>HTML Academy</b>
+    </p>
+  </footer>
+</body>
+
+</html>
